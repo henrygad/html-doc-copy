@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <meta name="robots" content="index, follow">
+    <title>Litte Lemom</title>
+    <meta name="author"  content="Henry">
+    <meta name="description" content="Drink Lemon everyday">
+    <meta name="keyword" content="lemon juice, lemon for you, lemon everyday">
+    <meta name="rating" content="safe for kids">
+
+    <meta property="og:title" content="Sigin to get newsletter on lemon juice morning benefits">
+    <meta property="og:type"  content="website">
+    <meta property="og:img"   content="bestlogo.png">
+    <meta property="og:url"   content="https://littlelemon.com">
+    <meta property="og:description" content="We are a open source online community were we share benifits of drinking lemon juice in the morning.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Littte Lemon">
+
+    <link rel="website icon" href="bestlogo.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: lightblue;
+        }
+
+        input:invalid {
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="app.html"><img src="bestlogo.png" alt="company log"></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="app.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+    <main><hr>
+        <iframe src="web-design.jpg" width="100%" height="400px" frameborder="0" sandbox allow="payment 'none'; camera 'none';  microphone 'none'"></iframe><hr>
+        <h1>Little Lemon Blog</h1>
+        <article>
+            <h2>Why you should drink lemon often</h2>
+            <p>Listen, i will like to tell you why yoou should always dring lemon <br>
+                 juice very morning when you wake up. You see when you drink</p>
+        </article><hr>
+        <div>
+            <h2>A SigUp form</h2>
+        </div>
+        <form method="POST" action="this-keyword.html">
+            <div>
+                <label for="user_first_name">First name</label><br>
+                <input type="text" name="user_first_name" id="user_first_name" required>
+            </div>
+            <div>
+                <label for="user_last_name">Last name</label><br>
+                <input type="text" name="user_last_name" id="user_last_name" required>
+            </div>
+            <div>
+                <label for="user_name">User name</label><br>
+                <input type="text" name="user_name" id="user_name" required minlength="3" maxlength="6">
+            </div>
+            <div>
+                <label for="user_email">Email</label><br>
+                <input type="email" name="user_email" id="user_email" required>
+            </div>
+            <div>
+                <label for="user_password">Password</label><br>
+                <input type="password" name="user_password" id="user_password" required minlength="6">
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        <div><hr>
+            <h2>Select Table</h2>
+        </div>
+        <form method="POST" action="/">
+            <fieldset id="size">
+                <label>
+                    <input type="radio" value="2" name="size"> 2-persons table
+                </label>
+                <label>
+                    <input type="radio" value="4" name="size" checked> 4-persons table
+                </label>
+                <label>
+                    <input type="radio" value="6" name="size"> 6-persons table
+                </label>
+            </fieldset>
+            <fieldset id="location">
+                <label>
+                    <input type="radio" value="inside" name="location" checked> Inside
+                </label>
+                <label>
+                    <input type="radio" value="outside" name="location"> Outside
+                </label>  
+            </fieldset>
+            <div>
+                <button type="submit" >Select Table</button>
+            </div>
+        </form><hr>
+        <div>
+            <h2>Advance Select table option</h2>
+        </div>
+        <form method="POST" action="signup">
+            <div>
+                <label for="Select_date">Select Date</label><br>
+                <input type="date" name="Select_date" id="select_date">
+            </div>
+            <div>
+                <label for="booking_people">Number of people</label><br>
+                <input type="range" name="booking_people" id="booking_people" min="1" max="10"  value="4" oninput="this.nextElementSibling.value = this.value" >
+                <output  id="booking_location_output" >4</output>
+            </div>
+            <div>
+                <label for="booking_location">choose Location</label><br>
+                <input name="booking_location" id="booking_location" list="locations">
+                <datalist id="locations">
+                    <option value="Uptown"></option>
+                    <option value="Downtown"></option>
+                </datalist>
+            </div>
+            <div>
+                <input type="submit" value="SignUp">
+                <!-- <button type="submit">Select Table</button> -->
+            </div>
+        </form><hr>
+        <h2>ABOUT</h2>
+        <video width="300px" height="500px" muted controls>
+            <source src="ashleysalon_video.mp4" type="video/mp4">
+        </video>
+        <p>We love to dring lemon very second and now and then when it come to anything lemon we are always in no matter what come and die we dey there as long as it all about lemon. Meanigwhile they are more stuffs you we will learn about us as you patroise us.</p>
+        <h3>Our about Little Lemom hypping song</h3>
+        <audio loop controls>
+            <source src="Lonely-At-The-Top.mp3" type="audio/mp3">
+        </audio><hr>
+        <canvas>
+            <p>2d game canvas</p>
+        </canvas>
+    </main>
+    <footer><hr>
+        <p>copyright Litte lemon 2023 All right reveserd</p>
+    </footer>
+    <script  type="text/Javascript" src="script.js"></script>
+</body>
+</html>
